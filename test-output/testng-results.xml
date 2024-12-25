@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-12T10:52:24 IST" name="Suite" finished-at="2024-12-12T10:52:33 IST" duration-ms="9213">
+    <groups>
+    </groups>
+    <test started-at="2024-12-12T10:52:24 IST" name="Test" finished-at="2024-12-12T10:52:33 IST" duration-ms="9213">
+      <class name="TestNG.Saucedemo">
+        <test-method signature="login()[pri:0, instance:TestNG.Saucedemo@498d318c]" started-at="2024-12-12T10:52:24 IST" name="login" finished-at="2024-12-12T10:52:32 IST" duration-ms="7704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="sort()[pri:0, instance:TestNG.Saucedemo@498d318c]" started-at="2024-12-12T10:52:32 IST" name="sort" finished-at="2024-12-12T10:52:32 IST" depends-on-methods="TestNG.Saucedemo.login" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort -->
+        <test-method signature="addToCart()[pri:0, instance:TestNG.Saucedemo@498d318c]" started-at="2024-12-12T10:52:32 IST" name="addToCart" finished-at="2024-12-12T10:52:32 IST" depends-on-methods="TestNG.Saucedemo.sort" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="order()[pri:0, instance:TestNG.Saucedemo@498d318c]" started-at="2024-12-12T10:52:32 IST" name="order" finished-at="2024-12-12T10:52:33 IST" depends-on-methods="TestNG.Saucedemo.addToCart" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order -->
+        <test-method signature="Logout()[pri:0, instance:TestNG.Saucedemo@498d318c]" started-at="2024-12-12T10:52:33 IST" name="Logout" finished-at="2024-12-12T10:52:33 IST" depends-on-methods="TestNG.Saucedemo.order" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- TestNG.Saucedemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
